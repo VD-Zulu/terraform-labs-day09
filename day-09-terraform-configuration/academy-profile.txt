@@ -1,0 +1,5 @@
+Academy: MZ-UCA Cloud Academy
+Student: Vusi Zulu
+Environment: assessment
+Project: academy-$var.environment
+Description: MZ-UCA Cloud Academy Terraform Training Environment
