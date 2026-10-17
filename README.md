@@ -66,6 +66,7 @@ All required files:
 - versions.tf  
 - academy-policy.txt
 
+
 ## Troubleshooting Guide
 
 ### Problem 1 — Terraform is not recognised
