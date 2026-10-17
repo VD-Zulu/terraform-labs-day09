@@ -16,3 +16,18 @@ variable "environment" {
   default     = "assessment"
 }
 
+variable "environment" {
+  description = "Deployment environment (dev or prod)"
+  type        = string
+}
+
+variable "region" {
+  description = "Cloud region for deployment"
+  type        = string
+}
+
+variable "instance_type" {
+  description = "Instance type for virtual machines"
+  type        = string
+}
+
