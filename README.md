@@ -25,12 +25,13 @@ This screenshot confirms successful initialization of provider plugins, verifyin
 This screenshot shows the output of `terraform validate`, confirming that all configuration files are syntactically correct and ready for execution.
 
 ## Execution
+### Terraform Plan
 ![Terraform Plan](screen-shots/terraform%20plan.png)
 This screenshot displays the `terraform plan` output, outlining the resources Terraform will create and confirming the configuration logic.
 
+### Terraform Apply
 ![Terraform Apply](screen-shots/terraform%20apply.png)
 This screenshot shows the `terraform apply` output, demonstrating successful resource creation and generation of the academy profile file.
-
 
 ### Terraform Version
 ![Terraform Version](screen-shots/terraform%20version.png)
