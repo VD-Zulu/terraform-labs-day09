@@ -34,37 +34,23 @@ This screenshot shows the `terraform apply` output, demonstrating successful res
 ## Evidence
 
 ### Terraform Version
-![Terraform Version](screen-shots/terraform version.png)
-This screenshot confirms the installed Terraform version, verifying environment readiness.
+![Terraform Version](screen-shots/terraform%20version.png)
 
 ### Terraform Init
-![Terraform Init](screen-shots/terraform init.png)
-This screenshot shows successful initialization of provider plugins, confirming that Terraform is ready to manage resources.
+![Terraform Init](screen-shots/terraform%20init.png)
 
 ### Terraform Validate
-![Terraform Validate](screen-shots/terraform validate.png)
-This screenshot demonstrates that all configuration files are syntactically valid and ready for execution.
+![Terraform Validate](screen-shots/terraform%20validate.png)
 
 ### Terraform Plan
-![Terraform Plan](screen-shots/terraform plan.png)
-This screenshot outlines the planned resource changes, showing what Terraform will create, modify, or destroy before applying.
+![Terraform Plan](screen-shots/terraform%20plan.png)
 
 ### Terraform Apply
-![Terraform Apply](screen-shots/terraform apply.png)
-This screenshot shows successful resource creation and generation of the academy profile file.
+![Terraform Apply](screen-shots/terraform%20apply.png)
 
 ### Academy Profile Output
 ![Academy Profile Output](screen-shots/academy-profile.txt.png)
-This screenshot displays the generated academy profile file, confirming that Terraform produced the expected output.
 
-All required files:
-- data.tf  
-- locals.tf  
-- main.tf  
-- outputs.tf  
-- variables.tf  
-- versions.tf  
-- academy-policy.txt
 
 
 ## Troubleshooting Guide
