@@ -17,21 +17,20 @@ This project demonstrates Terraform variables, outputs, locals, data sources, an
 - data.local_file.academy_policy
   
 ## Initialization
-![Terraform Init](screen-shots/terraform init.png)
+![Terraform Init](screen-shots/terraform%20init.png)
 This screenshot confirms successful initialization of provider plugins, verifying that Terraform is ready to manage resources.
 
 ## Validation
-![Terraform Validate](screen-shots/terraform validate.png)
+![Terraform Validate](screen-shots/terraform%20validate.png)
 This screenshot shows the output of `terraform validate`, confirming that all configuration files are syntactically correct and ready for execution.
 
 ## Execution
-![Terraform Plan](screen-shots/terraform plan.png)
+![Terraform Plan](screen-shots/terraform%20plan.png)
 This screenshot displays the `terraform plan` output, outlining the resources Terraform will create and confirming the configuration logic.
 
-![Terraform Apply](screen-shots/terraform apply.png)
+![Terraform Apply](screen-shots/terraform%20apply.png)
 This screenshot shows the `terraform apply` output, demonstrating successful resource creation and generation of the academy profile file.
 
-## Evidence
 
 ### Terraform Version
 ![Terraform Version](screen-shots/terraform%20version.png)
