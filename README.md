@@ -16,12 +16,21 @@ This project demonstrates Terraform variables, outputs, locals, data sources, an
 ## Data Sources Used
 - data.local_file.academy_policy
 
+## Initialization
+![Terraform Init](screen-shots/terraform init.png)
+This screenshot confirms successful initialization of provider plugins, verifying that the environment is correctly configured.
+
 ## Validation
-Result of `terraform validate`:
+Result of terraform validate:
+![Terraform Validate](screen-shots/terraform validate.png)
+This screenshot shows the output of `terraform validate`. It confirms that all configuration files are syntactically correct and ready for execution.
 
 ## Execution
-Result of `terraform plan` and `terraform apply`:
-
+Result of terraform plan and terraform apply:
+![Terraform Plan](screen-shots/terraform plan.png)
+This screenshot displays the `terraform plan` output, outlining the resources Terraform will create and confirming the configuration logic.
+![Terraform Apply](screen-shots/terraform apply.png)
+This screenshot shows the `terraform apply` output, demonstrating successful resource creation and generation of the academy profile file.
 
 ## Testing
 Changing the environment variable updated the generated academy profile name.  
@@ -34,11 +43,18 @@ For example, switching `var.environment` from `training` to `production` changed
 - **Data source** → reads information about existing objects.
 
 ## Evidence
-- Screenshot of folder structure
-- Screenshot of `terraform validate`
-- Screenshot of `terraform apply`
-- Screenshot of `terraform output`
-- Files: data.tf, locals.tf, main.tf, outputs.tf, variables.tf, versions.tf, academy-policy.txt
+![Terraform Version](screen-shots/terraform version.png)
+This screenshot confirms the installed Terraform version, verifying environment readiness.
+![Academy Profile Output](screen-shots/academy-profile.txt.png)
+This screenshot displays the generated academy profile file, confirming that Terraform produced the expected output.
+All required files:
+- data.tf
+- locals.tf
+- main.tf
+- outputs.tf
+- variables.tf
+- versions.tf
+- academy-policy.txt
 
 ## Troubleshooting Guide
 
