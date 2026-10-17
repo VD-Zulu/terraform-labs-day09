@@ -32,9 +32,28 @@ This screenshot displays the `terraform plan` output, outlining the resources Te
 This screenshot shows the `terraform apply` output, demonstrating successful resource creation and generation of the academy profile file.
 
 ## Evidence
+
+### Terraform Version
 ![Terraform Version](screen-shots/terraform version.png)
 This screenshot confirms the installed Terraform version, verifying environment readiness.
 
+### Terraform Init
+![Terraform Init](screen-shots/terraform init.png)
+This screenshot shows successful initialization of provider plugins, confirming that Terraform is ready to manage resources.
+
+### Terraform Validate
+![Terraform Validate](screen-shots/terraform validate.png)
+This screenshot demonstrates that all configuration files are syntactically valid and ready for execution.
+
+### Terraform Plan
+![Terraform Plan](screen-shots/terraform plan.png)
+This screenshot outlines the planned resource changes, showing what Terraform will create, modify, or destroy before applying.
+
+### Terraform Apply
+![Terraform Apply](screen-shots/terraform apply.png)
+This screenshot shows successful resource creation and generation of the academy profile file.
+
+### Academy Profile Output
 ![Academy Profile Output](screen-shots/academy-profile.txt.png)
 This screenshot displays the generated academy profile file, confirming that Terraform produced the expected output.
 
